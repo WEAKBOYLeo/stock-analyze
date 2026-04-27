@@ -1,0 +1,3076 @@
+{
+  "last_updated": "2026-04-26",
+  "companies": [
+    {
+      "code": "600169",
+      "name": "太原重工",
+      "directory": "600169-太原重工",
+      "files": [
+        {
+          "filename": "600169-太原重工-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 82683,
+          "size_mb": 0.08,
+          "category": "financial_data"
+        },
+        {
+          "filename": "600169-太原重工-2013年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2153936,
+          "size_mb": 2.05,
+          "year": 2013,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600169-太原重工-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2472391,
+          "size_mb": 2.36,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600169-太原重工-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3062408,
+          "size_mb": 2.92,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600169-太原重工-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2886916,
+          "size_mb": 2.75,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600169-太原重工-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2972282,
+          "size_mb": 2.83,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600169-太原重工-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3262512,
+          "size_mb": 3.11,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600169-太原重工-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4647379,
+          "size_mb": 4.43,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600169-太原重工-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4377337,
+          "size_mb": 4.17,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600169-太原重工-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 6339413,
+          "size_mb": 6.05,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600169-太原重工-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5830233,
+          "size_mb": 5.56,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600169-太原重工-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 6176176,
+          "size_mb": 5.89,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600169-太原重工-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2032912,
+          "size_mb": 1.94,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600169-太原重工-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1531738,
+          "size_mb": 1.46,
+          "year": 2025,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "600054",
+      "name": "黄山旅游",
+      "directory": "600054-黄山旅游",
+      "files": [
+        {
+          "filename": "600054-黄山旅游-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 84879,
+          "category": "financial_data"
+        },
+        {
+          "filename": "600054-黄山旅游-2011年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1131219,
+          "year": 2011,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600054-黄山旅游-2012年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1979519,
+          "year": 2012,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600054-黄山旅游-2013年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1941910,
+          "year": 2013,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600054-黄山旅游-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2523904,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600054-黄山旅游-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2471328,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600054-黄山旅游-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2511881,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600054-黄山旅游-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2511509,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600054-黄山旅游-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2548529,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600054-黄山旅游-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3064351,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600054-黄山旅游-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3768342,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600054-黄山旅游-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5609556,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600054-黄山旅游-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3914617,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600054-黄山旅游-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4016475,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600054-黄山旅游-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1429445,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600054-黄山旅游-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1315647,
+          "year": 2025,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "000888",
+      "name": "峨眉山A",
+      "directory": "000888-峨眉山A",
+      "files": [
+        {
+          "filename": "000888-峨眉山A-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 82442,
+          "category": "financial_data"
+        },
+        {
+          "filename": "000888-峨眉山A-2011年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1157752,
+          "year": 2011,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000888-峨眉山A-2012年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1480232,
+          "year": 2012,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000888-峨眉山A-2013年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1425849,
+          "year": 2013,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000888-峨眉山A-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2778103,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000888-峨眉山A-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2663501,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000888-峨眉山A-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2786603,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000888-峨眉山A-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2906262,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000888-峨眉山A-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 9806888,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000888-峨眉山A-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1266871,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000888-峨眉山A-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1260385,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000888-峨眉山A-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1413267,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000888-峨眉山A-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1208277,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000888-峨眉山A-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1212837,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000888-峨眉山A-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1240545,
+          "year": 2024,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "603199",
+      "name": "九华旅游",
+      "directory": "603199-九华旅游",
+      "files": [
+        {
+          "filename": "603199-九华旅游-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 41549,
+          "category": "financial_data"
+        },
+        {
+          "filename": "603199-九华旅游-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2210160,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603199-九华旅游-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2341714,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603199-九华旅游-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2326008,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603199-九华旅游-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2297517,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603199-九华旅游-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2496241,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603199-九华旅游-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2996008,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603199-九华旅游-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3279998,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603199-九华旅游-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3258546,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603199-九华旅游-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3510514,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603199-九华旅游-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3528132,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603199-九华旅游-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3698228,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603199-九华旅游-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1352128,
+          "year": 2025,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "603099",
+      "name": "长白山",
+      "directory": "603099-长白山",
+      "files": [
+        {
+          "filename": "603099-长白山-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 43536,
+          "category": "financial_data"
+        },
+        {
+          "filename": "603099-长白山-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2020352,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603099-长白山-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2078549,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603099-长白山-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2153954,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603099-长白山-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2273113,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603099-长白山-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2301208,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603099-长白山-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2505493,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603099-长白山-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3142244,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603099-长白山-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3260648,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603099-长白山-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3345648,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603099-长白山-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3429483,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603099-长白山-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1337810,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603099-长白山-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3802789,
+          "year": 2025,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "002033",
+      "name": "丽江股份",
+      "directory": "002033-丽江股份",
+      "files": [
+        {
+          "filename": "002033-丽江旅游-2011年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5178485,
+          "year": 2011,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002033-丽江旅游-2012年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2884733,
+          "year": 2012,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002033-丽江旅游-2013年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2834314,
+          "year": 2013,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002033-丽江旅游-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2660973,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002033-丽江旅游-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2791015,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002033-丽江旅游-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2953141,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002033-丽江旅游-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3210207,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002033-丽江旅游-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 6135431,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002033-丽江旅游-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 7163077,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002033-丽江股份-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 72590,
+          "category": "financial_data"
+        },
+        {
+          "filename": "002033-丽江股份-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 7095819,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002033-丽江股份-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3819994,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002033-丽江股份-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3139423,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002033-丽江股份-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3205225,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002033-丽江股份-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5053105,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002033-丽江股份-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1245920,
+          "year": 2025,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "000430",
+      "name": "张家界",
+      "directory": "000430-张家界",
+      "files": [
+        {
+          "filename": "000430-ST张家界-2011年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1843540,
+          "year": 2011,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000430-ST张家界-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1266880,
+          "year": 2025,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000430-张家界-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 84396,
+          "category": "financial_data"
+        },
+        {
+          "filename": "000430-张家界-2012年报.pdf",
+          "type": "pdf",
+          "size_bytes": 657381,
+          "year": 2012,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000430-张家界-2013年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3922212,
+          "year": 2013,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000430-张家界-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2589051,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000430-张家界-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2565109,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000430-张家界-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2721590,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000430-张家界-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2931670,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000430-张家界-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1244174,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000430-张家界-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1282092,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000430-张家界-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1128349,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000430-张家界-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1146575,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000430-张家界-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1142398,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000430-张家界-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1143452,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000430-张家界-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1128911,
+          "year": 2024,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "600749",
+      "name": "西藏旅游",
+      "directory": "600749-西藏旅游",
+      "files": [
+        {
+          "filename": "600749-*ST藏旅-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5443407,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600749-西藏旅游-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 84741,
+          "category": "financial_data"
+        },
+        {
+          "filename": "600749-西藏旅游-2013年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1767044,
+          "year": 2013,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600749-西藏旅游-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2490363,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600749-西藏旅游-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2433708,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600749-西藏旅游-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2335005,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600749-西藏旅游-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2485826,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600749-西藏旅游-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 11004654,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600749-西藏旅游-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3864419,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600749-西藏旅游-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5285490,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600749-西藏旅游-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3873566,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600749-西藏旅游-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5772719,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600749-西藏旅游-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 7345296,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600749-西藏旅游-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 30967653,
+          "year": 2025,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "300859",
+      "name": "西域旅游",
+      "directory": "300859-西域旅游",
+      "files": [
+        {
+          "filename": "300859-*ST西域-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5141718,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "300859-*ST西域-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1158036,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "300859-西域旅游-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 32377,
+          "category": "financial_data"
+        },
+        {
+          "filename": "300859-西域旅游-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1174258,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "300859-西域旅游-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1259496,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "300859-西域旅游-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1563380,
+          "year": 2025,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "000978",
+      "name": "桂林旅游",
+      "directory": "000978-桂林旅游",
+      "files": [
+        {
+          "filename": "000978-桂林旅游-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 80507,
+          "category": "financial_data"
+        },
+        {
+          "filename": "000978-桂林旅游-2012年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1041642,
+          "year": 2012,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000978-桂林旅游-2013年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1048005,
+          "year": 2013,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000978-桂林旅游-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 958604,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000978-桂林旅游-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2715054,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000978-桂林旅游-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2984527,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000978-桂林旅游-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1000463,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000978-桂林旅游-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1047145,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000978-桂林旅游-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1111830,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000978-桂林旅游-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1237060,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000978-桂林旅游-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1286626,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000978-桂林旅游-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1058150,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000978-桂林旅游-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3999173,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000978-桂林旅游-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3881752,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000978-桂林旅游-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3588879,
+          "year": 2025,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "603136",
+      "name": "天目湖",
+      "directory": "603136-天目湖",
+      "files": [
+        {
+          "filename": "603136-天目湖-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 33692,
+          "category": "financial_data"
+        },
+        {
+          "filename": "603136-天目湖-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 31129317,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603136-天目湖-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 37511526,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603136-天目湖-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 48023622,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603136-天目湖-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 47770578,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603136-天目湖-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 669738,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603136-天目湖-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 677284,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603136-天目湖-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 59753678,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603136-天目湖-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3646896,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "603136-天目湖-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 40055774,
+          "year": 2025,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "002627",
+      "name": "三峡旅游",
+      "directory": "002627-三峡旅游",
+      "files": [
+        {
+          "filename": "002627-三峡旅游-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 49989,
+          "category": "financial_data"
+        },
+        {
+          "filename": "002627-三峡旅游-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 6082341,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002627-三峡旅游-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5174865,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002627-三峡旅游-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1448686,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002627-三峡旅游-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1371225,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002627-宜昌交运-2011年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2795660,
+          "year": 2011,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002627-宜昌交运-2012年报.pdf",
+          "type": "pdf",
+          "size_bytes": 964593,
+          "year": 2012,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002627-宜昌交运-2013年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1276519,
+          "year": 2013,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002627-宜昌交运-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4619595,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002627-宜昌交运-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4091807,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002627-宜昌交运-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5114898,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002627-宜昌交运-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1303059,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002627-宜昌交运-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1805487,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002627-宜昌交运-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 15940313,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002627-宜昌交运-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 6099899,
+          "year": 2020,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "600593",
+      "name": "大连圣亚",
+      "directory": "600593-大连圣亚",
+      "files": [
+        {
+          "filename": "600593-*ST圣亚-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4390115,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600593-大连圣亚-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 76146,
+          "category": "financial_data"
+        },
+        {
+          "filename": "600593-大连圣亚-2012年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2487001,
+          "year": 2012,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600593-大连圣亚-2013年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1933423,
+          "year": 2013,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600593-大连圣亚-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 809045,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600593-大连圣亚-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2668220,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600593-大连圣亚-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2756980,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600593-大连圣亚-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3066365,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600593-大连圣亚-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3186994,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600593-大连圣亚-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3474951,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600593-大连圣亚-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4484795,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600593-大连圣亚-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3639224,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600593-大连圣亚-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3959841,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600593-大连圣亚-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1234149,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600593-大连圣亚-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1428428,
+          "year": 2025,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "600138",
+      "name": "中青旅",
+      "directory": "600138-中青旅",
+      "files": [
+        {
+          "filename": "600138-中青旅-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 84262,
+          "category": "financial_data"
+        },
+        {
+          "filename": "600138-中青旅-2011年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1698051,
+          "year": 2011,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600138-中青旅-2012年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2047356,
+          "year": 2012,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600138-中青旅-2013年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2243927,
+          "year": 2013,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600138-中青旅-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2593098,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600138-中青旅-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2389358,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600138-中青旅-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2320130,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600138-中青旅-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2481316,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600138-中青旅-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2758325,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600138-中青旅-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3011727,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600138-中青旅-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3547800,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600138-中青旅-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5227936,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600138-中青旅-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5149848,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600138-中青旅-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5497698,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600138-中青旅-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3933513,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600138-中青旅-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1539941,
+          "year": 2025,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "300144",
+      "name": "宋城演艺",
+      "directory": "300144-宋城演艺",
+      "files": [
+        {
+          "filename": "300144-宋城演艺-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 55211,
+          "category": "financial_data"
+        },
+        {
+          "filename": "300144-宋城演艺-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4188972,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "300144-宋城演艺-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2227391,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "300144-宋城演艺-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1332644,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "300144-宋城演艺-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1146742,
+          "year": 2025,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "000069",
+      "name": "华侨城A",
+      "directory": "000069-华侨城A",
+      "files": [
+        {
+          "filename": "000069-华侨城A-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 86693,
+          "category": "financial_data"
+        },
+        {
+          "filename": "000069-华侨城A-2012年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3658367,
+          "year": 2012,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000069-华侨城A-2013年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4353268,
+          "year": 2013,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000069-华侨城A-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1300083,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000069-华侨城A-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4085894,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000069-华侨城A-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5238435,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000069-华侨城A-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1461093,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000069-华侨城A-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 16798316,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000069-华侨城A-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 11698895,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000069-华侨城A-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 17504079,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000069-华侨城A-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3396036,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000069-华侨城A-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5076141,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000069-华侨城A-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3117160,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000069-华侨城A-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1818236,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000069-华侨城A-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1682794,
+          "year": 2025,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "600706",
+      "name": "曲江文旅",
+      "directory": "600706-曲江文旅",
+      "files": [
+        {
+          "filename": "600706-曲江文旅-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 82620,
+          "category": "financial_data"
+        },
+        {
+          "filename": "600706-曲江文旅-2013年报.pdf",
+          "type": "pdf",
+          "size_bytes": 29078061,
+          "year": 2013,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600706-曲江文旅-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 16666987,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600706-曲江文旅-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2935014,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600706-曲江文旅-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 17058812,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600706-曲江文旅-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2884128,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600706-曲江文旅-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 25242604,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600706-曲江文旅-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 38334581,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600706-曲江文旅-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4106551,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600706-曲江文旅-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 19490471,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600706-曲江文旅-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5655308,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600706-曲江文旅-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4551746,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600706-曲江文旅-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1423804,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600706-曲江文旅-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1523099,
+          "year": 2025,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "000610",
+      "name": "西安旅游",
+      "directory": "000610-西安旅游",
+      "files": [
+        {
+          "filename": "000610-西安旅游-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 85784,
+          "category": "financial_data"
+        },
+        {
+          "filename": "000610-西安旅游-2012年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2655797,
+          "year": 2012,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000610-西安旅游-2013年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2884990,
+          "year": 2013,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000610-西安旅游-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2682955,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000610-西安旅游-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2498687,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000610-西安旅游-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2733223,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000610-西安旅游-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2712750,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000610-西安旅游-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5686557,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000610-西安旅游-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 6763207,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000610-西安旅游-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 6757942,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000610-西安旅游-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3254202,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000610-西安旅游-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2693323,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000610-西安旅游-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1774294,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000610-西安旅游-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1778973,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000610-西安旅游-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2673960,
+          "year": 2025,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "002059",
+      "name": "云南旅游",
+      "directory": "002059-云南旅游",
+      "files": [
+        {
+          "filename": "002059-云南旅游-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 67493,
+          "category": "financial_data"
+        },
+        {
+          "filename": "002059-云南旅游-2011年报.pdf",
+          "type": "pdf",
+          "size_bytes": 796754,
+          "year": 2011,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002059-云南旅游-2012年报.pdf",
+          "type": "pdf",
+          "size_bytes": 695593,
+          "year": 2012,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002059-云南旅游-2013年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3751224,
+          "year": 2013,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002059-云南旅游-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3032209,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002059-云南旅游-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3129104,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002059-云南旅游-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3139360,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002059-云南旅游-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1974637,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002059-云南旅游-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 6050929,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002059-云南旅游-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 13596794,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002059-云南旅游-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1491129,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002059-云南旅游-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1483871,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002059-云南旅游-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1499309,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002059-云南旅游-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3735556,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002059-云南旅游-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3670711,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002059-云南旅游-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1528164,
+          "year": 2025,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "601888",
+      "name": "中国中免",
+      "directory": "601888-中国中免",
+      "files": [
+        {
+          "filename": "601888-中国中免-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 58404,
+          "category": "financial_data"
+        },
+        {
+          "filename": "601888-中国中免-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3319123,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601888-中国中免-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3388166,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601888-中国中免-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4778336,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601888-中国中免-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 20240376,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601888-中国中免-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 12881411,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601888-中国中免-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 11934661,
+          "year": 2025,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601888-中国国旅-2011年报.pdf",
+          "type": "pdf",
+          "size_bytes": 740761,
+          "year": 2011,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601888-中国国旅-2012年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3234693,
+          "year": 2012,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601888-中国国旅-2013年报.pdf",
+          "type": "pdf",
+          "size_bytes": 6715784,
+          "year": 2013,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601888-中国国旅-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2820877,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601888-中国国旅-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3701043,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601888-中国国旅-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3815030,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601888-中国国旅-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2760220,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601888-中国国旅-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2563411,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601888-中国国旅-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2364803,
+          "year": 2019,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "000524",
+      "name": "岭南控股",
+      "directory": "000524-岭南控股",
+      "files": [
+        {
+          "filename": "000524-东方宾馆-2011年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2559816,
+          "year": 2011,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000524-东方宾馆-2012年报.pdf",
+          "type": "pdf",
+          "size_bytes": 940399,
+          "year": 2012,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000524-东方宾馆-2013年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1004593,
+          "year": 2013,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000524-东方宾馆-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 946353,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000524-岭南控股-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 84912,
+          "category": "financial_data"
+        },
+        {
+          "filename": "000524-岭南控股-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1614381,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000524-岭南控股-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1191239,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000524-岭南控股-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3300895,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000524-岭南控股-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 7462780,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000524-岭南控股-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 9409389,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000524-岭南控股-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4107944,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000524-岭南控股-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3941151,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000524-岭南控股-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4968806,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000524-岭南控股-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5196391,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000524-岭南控股-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5051082,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000524-岭南控股-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2992114,
+          "year": 2025,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "002707",
+      "name": "众信旅游",
+      "directory": "002707-众信旅游",
+      "files": [
+        {
+          "filename": "002707-众信旅游-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 46124,
+          "category": "financial_data"
+        },
+        {
+          "filename": "002707-众信旅游-2013年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2566625,
+          "year": 2013,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002707-众信旅游-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1131988,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002707-众信旅游-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1188444,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002707-众信旅游-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4848959,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002707-众信旅游-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1224504,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002707-众信旅游-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 12295817,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002707-众信旅游-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1705827,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002707-众信旅游-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1638886,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002707-众信旅游-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5194351,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002707-众信旅游-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1136811,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002707-众信旅游-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1155680,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002707-众信旅游-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1192423,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002707-众信旅游-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1237475,
+          "year": 2025,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "000796",
+      "name": "凯撒旅业",
+      "directory": "000796-凯撒旅业",
+      "files": [
+        {
+          "filename": "000796-*ST凯撒-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5998722,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000796-*ST凯撒-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5545508,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000796-凯撒旅业-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 82923,
+          "category": "financial_data"
+        },
+        {
+          "filename": "000796-凯撒旅业-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 10691183,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000796-凯撒旅业-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4617624,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000796-凯撒旅业-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4407337,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000796-凯撒旅业-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5122586,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000796-凯撒旅游-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4328331,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000796-凯撒旅游-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4563523,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000796-凯撒旅游-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4723087,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000796-凯撒旅游-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 9127743,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000796-易食股份-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2793717,
+          "year": 2014,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "600754",
+      "name": "锦江酒店",
+      "directory": "600754-锦江酒店",
+      "files": [
+        {
+          "filename": "600754-锦江股份-2011年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3247718,
+          "year": 2011,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600754-锦江股份-2012年报.pdf",
+          "type": "pdf",
+          "size_bytes": 11794748,
+          "year": 2012,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600754-锦江股份-2013年报.pdf",
+          "type": "pdf",
+          "size_bytes": 23978949,
+          "year": 2013,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600754-锦江股份-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3961987,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600754-锦江股份-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 6735662,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600754-锦江股份-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 7463889,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600754-锦江股份-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 17420980,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600754-锦江股份-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4191090,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600754-锦江酒店-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 86166,
+          "category": "financial_data"
+        },
+        {
+          "filename": "600754-锦江酒店-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4617252,
+          "year": 2019,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "600258",
+      "name": "首旅酒店",
+      "directory": "600258-首旅酒店",
+      "files": [
+        {
+          "filename": "600258-首旅股份-2011年报.pdf",
+          "type": "pdf",
+          "size_bytes": 714480,
+          "year": 2011,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600258-首旅股份-2012年报.pdf",
+          "type": "pdf",
+          "size_bytes": 937980,
+          "year": 2012,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600258-首旅酒店-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 80454,
+          "category": "financial_data"
+        },
+        {
+          "filename": "600258-首旅酒店-2013年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2335987,
+          "year": 2013,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600258-首旅酒店-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2894435,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600258-首旅酒店-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3034806,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600258-首旅酒店-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3222062,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600258-首旅酒店-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3817498,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600258-首旅酒店-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3895706,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600258-首旅酒店-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4386096,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600258-首旅酒店-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4669952,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600258-首旅酒店-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4892957,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600258-首旅酒店-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4511508,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600258-首旅酒店-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4831803,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600258-首旅酒店-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4875528,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "600258-首旅酒店-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1532876,
+          "year": 2025,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "301073",
+      "name": "君亭酒店",
+      "directory": "301073-君亭酒店",
+      "files": [
+        {
+          "filename": "301073-君亭酒店-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 28630,
+          "category": "financial_data"
+        },
+        {
+          "filename": "301073-君亭酒店-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1802019,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "301073-君亭酒店-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1530188,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "301073-君亭酒店-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1533223,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "301073-君亭酒店-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1770482,
+          "year": 2024,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "601007",
+      "name": "金陵饭店",
+      "directory": "601007-金陵饭店",
+      "files": [
+        {
+          "filename": "601007-金陵饭店-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 64101,
+          "category": "financial_data"
+        },
+        {
+          "filename": "601007-金陵饭店-2011年报.pdf",
+          "type": "pdf",
+          "size_bytes": 685724,
+          "year": 2011,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601007-金陵饭店-2012年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2014509,
+          "year": 2012,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601007-金陵饭店-2013年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2019760,
+          "year": 2013,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601007-金陵饭店-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2445928,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601007-金陵饭店-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2492304,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601007-金陵饭店-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2717451,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601007-金陵饭店-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2674232,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601007-金陵饭店-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2880207,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601007-金陵饭店-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3224839,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601007-金陵饭店-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4577224,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601007-金陵饭店-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3623973,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601007-金陵饭店-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3669940,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601007-金陵饭店-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4070726,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601007-金陵饭店-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 5459680,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "601007-金陵饭店-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1494184,
+          "year": 2025,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "000428",
+      "name": "华天酒店",
+      "directory": "000428-华天酒店",
+      "files": [
+        {
+          "filename": "000428-华天酒店-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 84276,
+          "category": "financial_data"
+        },
+        {
+          "filename": "000428-华天酒店-2011年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2367721,
+          "year": 2011,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000428-华天酒店-2012年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2674244,
+          "year": 2012,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000428-华天酒店-2013年报.pdf",
+          "type": "pdf",
+          "size_bytes": 830512,
+          "year": 2013,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000428-华天酒店-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2914356,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000428-华天酒店-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2951638,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000428-华天酒店-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2966588,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000428-华天酒店-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3108368,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000428-华天酒店-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 6947722,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000428-华天酒店-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 8473620,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000428-华天酒店-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3807392,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000428-华天酒店-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1307074,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000428-华天酒店-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1217402,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000428-华天酒店-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1178109,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "000428-华天酒店-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1244776,
+          "year": 2024,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "002186",
+      "name": "全聚德",
+      "directory": "002186-全聚德",
+      "files": [
+        {
+          "filename": "002186-全聚德-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 63735,
+          "category": "financial_data"
+        },
+        {
+          "filename": "002186-全聚德-2011年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2545697,
+          "year": 2011,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002186-全聚德-2012年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2948970,
+          "year": 2012,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002186-全聚德-2013年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2921688,
+          "year": 2013,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002186-全聚德-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2977537,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002186-全聚德-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2922282,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002186-全聚德-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2877339,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002186-全聚德-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3048281,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002186-全聚德-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 6239235,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002186-全聚德-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 7251354,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002186-全聚德-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3432654,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002186-全聚德-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3595513,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002186-全聚德-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3080951,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002186-全聚德-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3344494,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002186-全聚德-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3204915,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002186-全聚德-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 1127508,
+          "year": 2025,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "002159",
+      "name": "三特索道",
+      "directory": "002159-三特索道",
+      "files": [
+        {
+          "filename": "002159-三特索道-2005-2026Q1财务摘要.csv",
+          "type": "csv",
+          "size_bytes": 63396,
+          "category": "financial_data"
+        },
+        {
+          "filename": "002159-三特索道-2011年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2411993,
+          "year": 2011,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002159-三特索道-2012年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3046456,
+          "year": 2012,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002159-三特索道-2013年报.pdf",
+          "type": "pdf",
+          "size_bytes": 2283792,
+          "year": 2013,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002159-三特索道-2014年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3086182,
+          "year": 2014,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002159-三特索道-2015年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3209804,
+          "year": 2015,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002159-三特索道-2016年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3138673,
+          "year": 2016,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002159-三特索道-2017年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3466268,
+          "year": 2017,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002159-三特索道-2018年报.pdf",
+          "type": "pdf",
+          "size_bytes": 7238103,
+          "year": 2018,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002159-三特索道-2019年报.pdf",
+          "type": "pdf",
+          "size_bytes": 7999004,
+          "year": 2019,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002159-三特索道-2020年报.pdf",
+          "type": "pdf",
+          "size_bytes": 7987159,
+          "year": 2020,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002159-三特索道-2021年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3764411,
+          "year": 2021,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002159-三特索道-2022年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4568014,
+          "year": 2022,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002159-三特索道-2023年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4724839,
+          "year": 2023,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002159-三特索道-2024年报.pdf",
+          "type": "pdf",
+          "size_bytes": 4413199,
+          "year": 2024,
+          "category": "annual_report"
+        },
+        {
+          "filename": "002159-三特索道-2025年报.pdf",
+          "type": "pdf",
+          "size_bytes": 3360787,
+          "year": 2025,
+          "category": "annual_report"
+        }
+      ]
+    }
+  ]
+}

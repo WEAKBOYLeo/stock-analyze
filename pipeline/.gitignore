@@ -1,0 +1,23 @@
+# Pipeline — ignore task workspaces, staging data, and logs
+# Keep directory structure with .gitkeep
+
+tasks/*
+!tasks/.gitkeep
+
+staging/*
+!staging/.gitkeep
+
+logs/*
+!logs/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Downloaded filings (large files)
+*.pdf
+*.html
+*.xlsx

@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annual Report Crawler - Unified "Hysilens" Version</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f7f7f7;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(-45deg, #f5998e, #f19085, #f2967c, #f08a7b, #ef8373, #f5998e);
+            background-size: 200% 200%;
+            animation: gradientFlow 20s ease-in-out infinite;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            position: relative;
+        }
+
+        @keyframes gradientFlow {
+            0% {
+                background-position: 0% 0%;
+            }
+            50% {
+                background-position: 100% 100%;
+            }
+            100% {
+                background-position: 0% 0%;
+            }
+        }
+
+        .header h1, .header p {
+            text-shadow: 
+                1px 1px 3px rgba(0,0,0,0.4),
+                0px 0px 8px rgba(0,0,0,0.3);
+        }
+
+        .header .nav-link {
+            color: white !important;
+        }
+
+        .header .nav-link:visited {
+            color: white !important;
+        }
+
+        .header p .nav-link {
+            color: white !important;
+            text-decoration: underline;
+            font-weight: 600;
+            text-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+        }
+
+        .header p .nav-link:hover {
+            color: white !important;
+            text-decoration: none;
+        }
+
+
+
+        .header .nav-link {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            background: rgba(255, 255, 255, 0.25);
+            color: white !important;
+            padding: 8px 16px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 14px;
+            transition: background-color 0.3s;
+            text-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+            backdrop-filter: blur(10px);
+        }
+
+        .header .nav-link:hover {
+            background: rgba(255, 255, 255, 0.4);
+            color: white !important;
+            text-decoration: none;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 30px 40px 40px 40px;
+        }
+
+
+
+        .mode-selector {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border: 2px solid #e1e5e9;
+        }
+
+        .mode-selector h3 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .mode-options {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .mode-option {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+            border: 3px solid #e1e5e9;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+            background: white;
+        }
+
+        .mode-option[data-mode="hanae"]:hover {
+            border-color: #f8aea5;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(248, 174, 165, 0.2);
+        }
+
+        .mode-option[data-mode="shio"]:hover {
+            border-color: #f5795d;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(245, 121, 93, 0.2);
+        }
+
+        .mode-option.selected {
+            border-color: #f8aea5;
+        }
+
+        .mode-option[data-mode="hanae"].selected {
+            background: rgba(248, 174, 165, 0.15);
+            border-color: #f8aea5;
+            box-shadow: 0 4px 12px rgba(248, 174, 165, 0.3);
+        }
+
+        .mode-option[data-mode="shio"].selected {
+            background: rgba(245, 121, 93, 0.15);
+            border-color: #f5795d;
+            box-shadow: 0 4px 12px rgba(245, 121, 93, 0.3);
+        }
+
+        .mode-option .mode-title {
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #666;
+        }
+
+        .mode-option[data-mode="hanae"] .mode-title {
+            color: #e8998a;
+        }
+
+        .mode-option[data-mode="hanae"].selected .mode-title {
+            color: #f8aea5;
+            font-weight: 700;
+        }
+
+        .mode-option[data-mode="shio"] .mode-title {
+            color: #e5694d;
+        }
+
+        .mode-option[data-mode="shio"].selected .mode-title {
+            color: #f5795d;
+            font-weight: 700;
+        }
+
+        .mode-option .mode-description {
+            color: #666;
+            font-size: 0.95em;
+            line-height: 1.4;
+        }
+
+        .form-section {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .form-group input, .form-group textarea, .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e1e5e9;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
+            outline: none;
+            border-color: #f8aea5;
+        }
+
+        .form-group textarea {
+            height: 120px;
+            resize: vertical;
+        }
+
+        .form-row {
+            display: flex;
+            gap: 20px;
+        }
+
+        .form-row .form-group {
+            flex: 1;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #f8aea5 0%, #f5795d 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-right: 10px;
+            text-shadow: 
+                1px 1px 3px rgba(0,0,0,0.4),
+                0px 0px 8px rgba(0,0,0,0.3);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(248, 174, 165, 0.3), 0 8px 25px rgba(245, 121, 93, 0.2);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn.secondary {
+            background: #6c757d;
+        }
+
+        .btn.secondary:hover {
+            box-shadow: 0 5px 15px rgba(108, 117, 125, 0.4);
+        }
+
+        .progress-section {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            display: none;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background: #e1e5e9;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(135deg, #f8aea5 0%, #f5795d 100%);
+            width: 0%;
+            transition: width 0.3s;
+        }
+
+        .progress-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        .logs-section {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            display: none;
+        }
+
+        .logs-container {
+            background: #1e1e1e;
+            color: #00ff00;
+            padding: 20px;
+            border-radius: 8px;
+            height: 300px;
+            overflow-y: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+
+        .results-section {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            display: none;
+        }
+
+        .result-item {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            border-left: 4px solid #28a745;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .result-item.error {
+            border-left-color: #dc3545;
+        }
+
+        .help-section {
+            background: #e7f3ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .help-section h3 {
+            color: #f5795d;
+            margin-bottom: 15px;
+        }
+
+        .help-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .help-section li {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .help-section li:before {
+            content: "•";
+            color: #f5795d;
+            position: absolute;
+            left: 0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            border-top: 1px solid #eee;
+        }
+
+        .statistics-bar {
+            margin-top: 15px;
+            padding: 10px;
+            background: white;
+            border-radius: 8px;
+            font-weight: 600;
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .form-row {
+                flex-direction: column;
+            }
+            
+            .mode-options {
+                flex-direction: column;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 Annual Report Crawler</h1>
+            <p>Developed by Terence WANG</p>
+            <p>🔧 v2.0.0 Unified "Hysilens" Version</p>
+            <p><a href="/readme" target="_blank" class="nav-link">📖 查看文档</a></p>
+        </div>
+
+        <div class="content">
+
+            <!-- 下载模式选择 -->
+            <div class="mode-selector">
+                <h3>⚙️ 选择下载模式</h3>
+                <div class="mode-options">
+                    <div class="mode-option selected" data-mode="hanae">
+                        <div class="mode-title">🌸 Requests "Hanae" Mode</div>
+                        <div class="mode-description">
+                            使用Python requests库的经典下载方式。下载速度快，内存占用少，适合无安全软件限制的环境。
+                        </div>
+                    </div>
+                    <div class="mode-option" data-mode="shio">
+                        <div class="mode-title">🪸 WebDriver "Shio" Mode</div>
+                        <div class="mode-description">
+                            通过浏览器下载，避免文件加密问题。适合企业环境，兼容各种安全软件，使用Chrome原生下载功能。
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- 下载配置 -->
+            <div class="form-section">
+                <h2>📥 下载配置</h2>
+                <form id="downloadForm">
+                    <div class="form-group" style="margin-bottom: 35px;">
+                        <label for="stockCodes">股票代码 (每行一个或用逗号分隔)</label>
+                        <textarea id="stockCodes" placeholder="例如:&#10;000001&#10;600519&#10;AAPL&#10;或: 000001,600519,AAPL"></textarea>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="years">年份 (多个年份用逗号分隔)</label>
+                            <input type="text" id="years" placeholder="例如: 2024 或 2023,2024" value="2024">
+                        </div>
+                        <div class="form-group">
+                            <label for="downloadDir">下载目录</label>
+                            <input type="text" id="downloadDir" value="annual_reports" placeholder="annual_reports">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn" id="downloadBtn">🚀 开始下载</button>
+                </form>
+            </div>
+
+            <!-- 进度显示 -->
+            <div class="progress-section" id="progressSection">
+                <h2>📈 下载进度</h2>
+                <div class="progress-info">
+                    <span id="progressText">准备中...</span>
+                    <span id="progressPercent">0%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="progress-info">
+                    <span id="currentStock">-</span>
+                    <span id="stockCount">0/0</span>
+                </div>
+                <!-- 统计信息 -->
+                <div class="statistics-bar" id="statisticsBar">
+                    <span id="statsText" style="color: #333;"></span>
+                </div>
+            </div>
+
+            <!-- 日志显示 -->
+            <div class="logs-section" id="logsSection">
+                <h2>📋 运行日志</h2>
+                <div class="logs-container" id="logsContainer"></div>
+            </div>
+
+            <!-- 结果显示 -->
+            <div class="results-section" id="resultsSection">
+                <h2>📄 下载结果</h2>
+                <div id="resultsContainer"></div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 Annual Report Crawler - Unified "Hysilens" Version v2</p>
+            <p>Developed by Terence WANG | 🎯 双模式统一版本，智能选择最佳下载方式</p>
+            <p>📦 <a href="https://github.com/kimilime/annual_report_crawler" target="_blank" style="color: #666; text-decoration: none;">GitHub Repository</a></p>
+        </div>
+    </div>
+
+    <script>
+        let statusInterval;
+        let isDownloading = false;
+                    let selectedMode = 'hanae'; // 默认选择Hanae模式
+
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            setupEventListeners();
+        });
+
+        function setupEventListeners() {
+            // 表单提交
+            document.getElementById('downloadForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                startDownload();
+            });
+
+            // 模式选择
+            document.querySelectorAll('.mode-option').forEach(option => {
+                option.addEventListener('click', function() {
+                    // 移除所有选中状态
+                    document.querySelectorAll('.mode-option').forEach(opt => {
+                        opt.classList.remove('selected');
+                    });
+                    
+                    // 添加选中状态
+                    this.classList.add('selected');
+                    selectedMode = this.getAttribute('data-mode');
+                    
+                    console.log('选择模式:', selectedMode);
+                });
+            });
+        }
+
+
+
+        // 开始下载
+        function startDownload() {
+            if (isDownloading) return;
+
+            const stockCodesText = document.getElementById('stockCodes').value.trim();
+            const yearsText = document.getElementById('years').value.trim();
+            const downloadDir = document.getElementById('downloadDir').value.trim();
+
+            if (!stockCodesText || !yearsText) {
+                alert('请输入股票代码和年份');
+                return;
+            }
+
+            // 解析股票代码
+            let stockCodes = [];
+            if (stockCodesText.includes('\n')) {
+                stockCodes = stockCodesText.split('\n').map(s => s.trim()).filter(s => s);
+            } else if (stockCodesText.includes(',')) {
+                stockCodes = stockCodesText.split(',').map(s => s.trim()).filter(s => s);
+            } else {
+                stockCodes = [stockCodesText.trim()].filter(s => s);
+            }
+
+            // 解析年份
+            const years = yearsText.split(',').map(s => parseInt(s.trim())).filter(y => y);
+
+            // 发送请求
+            fetch('/api/download', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    stock_codes: stockCodes,
+                    years: years,
+                    download_dir: downloadDir,
+                    mode: selectedMode
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    alert(data.error);
+                } else {
+                    startMonitoring();
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('启动下载失败');
+            });
+        }
+
+        // 开始监控
+        function startMonitoring() {
+            isDownloading = true;
+            document.getElementById('downloadBtn').disabled = true;
+            document.getElementById('downloadBtn').textContent = '⏳ 下载中...';
+            
+            // 立即重置所有状态显示
+            document.getElementById('progressFill').style.width = '0%';
+            document.getElementById('progressPercent').textContent = '0%';
+            document.getElementById('progressText').textContent = '准备中...';
+            document.getElementById('currentStock').textContent = '-';
+            document.getElementById('stockCount').textContent = '0/0';
+            document.getElementById('statisticsBar').style.display = 'none';
+            document.getElementById('logsContainer').innerHTML = '';
+            document.getElementById('resultsContainer').innerHTML = '';
+            
+            document.getElementById('progressSection').style.display = 'block';
+            document.getElementById('logsSection').style.display = 'block';
+            document.getElementById('resultsSection').style.display = 'block';
+
+            statusInterval = setInterval(updateStatus, 1000);
+        }
+
+        // 更新状态
+        function updateStatus() {
+            fetch('/api/status')
+                .then(response => response.json())
+                .then(data => {
+                    // 更新进度
+                    document.getElementById('progressFill').style.width = data.progress + '%';
+                    document.getElementById('progressPercent').textContent = data.progress + '%';
+                    document.getElementById('progressText').textContent = data.running ? '下载中...' : '完成';
+                    document.getElementById('currentStock').textContent = data.current_stock || '-';
+                    document.getElementById('stockCount').textContent = data.completed_stocks + '/' + data.total_stocks;
+
+                    // 更新日志
+                    const logsContainer = document.getElementById('logsContainer');
+                    if (data.logs.length > 0) {
+                        logsContainer.innerHTML = data.logs.map(log => 
+                            `<div>[${log.timestamp}] ${escapeHtml(log.message)}</div>`
+                        ).join('');
+                        logsContainer.scrollTop = logsContainer.scrollHeight;
+                    }
+
+                    // 更新统计信息
+                    if (data.results.length > 0) {
+                        const successCount = data.results.filter(r => r.status === 'success').length;
+                        const errorCount = data.results.filter(r => r.status === 'error').length;
+                        const totalCount = successCount + errorCount;
+                        
+                        document.getElementById('statisticsBar').style.display = 'block';
+                        document.getElementById('statsText').innerHTML = 
+                            `<span style="color: #28a745;">✅ 成功: ${successCount}</span> ` +
+                            `<span style="color: #dc3545;">❌ 失败: ${errorCount}</span> ` +
+                            `<span style="color: #6c757d;">📊 总计: ${successCount}/${totalCount}</span>`;
+                    }
+
+                    // 更新结果
+                    const resultsContainer = document.getElementById('resultsContainer');
+                    if (data.results.length > 0) {
+                        resultsContainer.innerHTML = data.results.map(result => {
+                            if (result.status === 'success') {
+                                return `
+                                    <div class="result-item">
+                                        <span>✅ ${escapeHtml(result.filename)}</span>
+                                    </div>
+                                `;
+                            } else {
+                                return `
+                                    <div class="result-item error">
+                                        <span>❌ ${escapeHtml(result.message)}</span>
+                                    </div>
+                                `;
+                            }
+                        }).join('');
+                    }
+
+                    // 检查是否完成
+                    if (!data.running && isDownloading) {
+                        clearInterval(statusInterval);
+                        isDownloading = false;
+                        document.getElementById('downloadBtn').disabled = false;
+                        document.getElementById('downloadBtn').textContent = '🚀 开始下载';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error updating status:', error);
+                });
+        }
+
+        // 工具函数
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+    </script>
+</body>
+</html> 

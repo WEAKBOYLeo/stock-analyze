@@ -1,0 +1,111 @@
+# 来源可信度白名单 — 项目权威定义
+# CLAUDE.md 和 knowledge-index 技能均从此文件引用，保持单一权威来源
+
+levels:
+  L1:
+    label: 官方一手数据
+    default_credibility: 高
+    description: 来自政府、监管机构、交易所的一手原始数据
+    sources:
+      - 央行公告（中国人民银行、美联储、欧央行等）
+      - 国家统计局 / 统计年鉴
+      - SEC 文件（10-K, 10-Q, 8-K 等）
+      - 港交所文件（年报、公告）
+      - 上交所 / 深交所公告
+      - 公司审计年报（经注册会计师审计）
+
+  L2:
+    label: 国际权威机构
+    default_credibility: 高
+    description: 全球公认的权威国际组织和政府间机构
+    sources:
+      - IMF（国际货币基金组织）
+      - World Bank（世界银行）
+      - BIS（国际清算银行）
+      - WTO（世界贸易组织）
+      - OECD（经合组织）
+      - 中国证监会 / 银保监会
+
+  L3:
+    label: 顶级投行
+    default_credibility: 中高
+    description: 全球/区域顶级投资银行研究部门
+    sources:
+      - Goldman Sachs（高盛）
+      - Morgan Stanley（摩根士丹利）
+      - JPMorgan（摩根大通）
+      - UBS（瑞银）
+      - CICC Research（中金研究院）
+
+  L4:
+    label: 国内头部券商
+    default_credibility: 中
+    description: 中国领先证券公司研究部门
+    sources:
+      - 中金公司
+      - 中信证券
+      - 华泰证券
+      - 国泰君安
+      - 海通证券
+      - 招商证券
+
+  L5:
+    label: 中小研究机构
+    default_credibility: 中低
+    description: 区域性券商、小型研究机构，需交叉验证
+    sources:
+      - 区域性券商研究所
+      - 小型独立研究机构
+      - 咨询公司行业报告
+
+  L6:
+    label: 财经媒体 / 数据平台
+    default_credibility: 低
+    description: 财经媒体和数据聚合平台，信息需核实原始来源
+    sources:
+      - Bloomberg（彭博）
+      - Reuters（路透社）
+      - 财新
+      - 华尔街见闻
+      - 东方财富
+      - AKShare（数据聚合平台）
+      - Wind（万得）
+
+  L7:
+    label: 自媒体 / 论坛
+    default_credibility: 低
+    description: 仅作线索参考，不作为知识依据
+    sources:
+      - 微信公众号
+      - 雪球
+      - 知乎
+      - Reddit
+      - 微博
+
+# 采信规则
+rules:
+  - rule: L1-L2 为高可信度基础
+    detail: 可独立支撑宏观判断，无需额外交叉验证
+  - rule: L3-L4 可作为行业和公司分析的主要参考
+    detail: 但需考虑利益冲突（如投行承销关系、券商持仓）
+  - rule: L5 及以下不能独立支撑投资判断
+    detail: 须有 L1-L4 级别来源交叉验证
+  - rule: 单一来源注明
+    detail: 单一来源的结论必须在报告和 SUMMARY 中注明"需进一步验证"
+  - rule: 分歧处理
+    detail: 多来源数据不一致时，优先采信 L1 官方数据，并记录分歧
+
+# 综合可信度标注
+credibility_labels:
+  - label: 高
+    criteria: L1-L2 来源 + 多源交叉验证一致
+  - label: 中高
+    criteria: L3 来源 + 数据可追溯 + 无明显利益冲突
+  - label: 中
+    criteria: L4 来源 + 部分因素存在不确定性
+  - label: 中低
+    criteria: L5 来源，或 L4 以上但存在方法/利益疑虑
+  - label: 低
+    criteria: L6-L7 来源，仅记录不依赖
+  - label: 待验证
+    criteria: 当前仅单一来源，尚需交叉验证

@@ -1,0 +1,81 @@
+{
+    "_说明": "本文件存储 akshare_reports.py 的关键字和参数。复制到 tasks/ 后按需修改。",
+
+    "task_name": "akshare_reports",
+    "data_source": "东方财富网 + 巨潮资讯网 (通过 AKShare)",
+
+    "report_dates": ["20231231", "20240930"],
+    "_report_dates_说明": "业绩报表日期，格式 YYYYMMDD。年报=1231, 一季报=0331, 中报=0630, 三季报=0930。可填入多个日期。",
+    "_常用日期": {
+        "2023年报": "20231231",
+        "2024一季报": "20240331",
+        "2024中报": "20240630",
+        "2024三季报": "20240930",
+        "2024年报": "20241231",
+        "2025一季报": "20250331"
+    },
+
+    "enabled_types": ["yjbb", "yjyg"],
+    "_enabled_types_说明": "启用哪些报表类型。yjbb=业绩报表(每股收益/营收/净利润/ROE等), yjyg=业绩预告(预增/预减/扭亏等), yjkb=业绩快报(比预告更详细)",
+
+    "enable_disclosure_search": false,
+    "_enable_disclosure_search_说明": "是否启用按公司的信息披露公告搜索。设为 true 时会在 disclosure_stocks 中搜索。",
+
+    "disclosure_stocks": [
+        {
+            "symbol": "600519",
+            "market": "sh",
+            "name": "贵州茅台",
+            "keyword": "年报",
+            "start_date": "2024-01-01",
+            "end_date": "2025-12-31"
+        },
+        {
+            "symbol": "000858",
+            "market": "sz",
+            "name": "五粮液",
+            "keyword": "年报",
+            "start_date": "2024-01-01",
+            "end_date": "2025-12-31"
+        }
+    ],
+    "_disclosure_stocks_说明": "公告搜索配置。market 可选 'sh'(上证) 或 'sz'(深证)。keyword 可选: 年报, 半年报, 季报, 股东大会, 分红, 重大合同, 资产重组 等。",
+
+    "_公告关键词参考": {
+        "财务报告类": ["年报", "半年报", "季报", "业绩预告", "业绩快报", "审计报告"],
+        "公司治理类": ["股东大会", "董事会", "监事会", "独立董事", "公司章程"],
+        "资本运作类": ["分红", "配股", "增发", "回购", "股权激励", "资产重组", "收购"],
+        "风险事件类": ["诉讼", "处罚", "退市", "破产", "重大合同", "担保"],
+        "其他": ["投资者关系", "调研", "路演", "变更", "更正"]
+    },
+
+    "_API函数参考": {
+        "stock_yjbb_em": {
+            "参数": "date='YYYYMMDD'",
+            "返回": "全市场业绩报表 (股票代码, 每股收益, 营业总收入, 净利润, ROE, 板块等 38 个字段)",
+            "示例": "ak.stock_yjbb_em(date='20231231')"
+        },
+        "stock_yjyg_em": {
+            "参数": "date='YYYYMMDD'",
+            "返回": "全市场业绩预告 (股票代码, 预告类型, 预告净利润变动幅度, 净利润上下限等)",
+            "示例": "ak.stock_yjyg_em(date='20240331')"
+        },
+        "stock_yjkb_em": {
+            "参数": "date='YYYYMMDD'",
+            "返回": "全市场业绩快报 (比预告更接近正式财报的初步数据)",
+            "示例": "ak.stock_yjkb_em(date='20231231')"
+        },
+        "stock_info_disclosure_cninfo": {
+            "参数": "symbol='股票代码', market='sh/sz', keyword='关键词', start_date='YYYY-MM-DD', end_date='YYYY-MM-DD'",
+            "返回": "巨潮资讯网信息披露公告列表",
+            "示例": "ak.stock_info_disclosure_cninfo(symbol='600519', market='sh', keyword='年报', start_date='2024-01-01', end_date='2024-12-31')"
+        }
+    },
+
+    "_其他可用接口": {
+        "预约披露时间_东财": "ak.stock_report_disclosure_time_em() — 上市公司预约披露时间表",
+        "预约披露时间_巨潮": "ak.stock_report_disclosure_time_cninfo() — 巨潮版预约披露时间",
+        "信息披露调研_巨潮": "ak.stock_info_disclosure_research_cninfo() — 机构调研信息",
+        "公司公告_东财": "ak.stock_gsrl_gsdt_em() — 东方财富公司动态事件日历"
+    }
+}

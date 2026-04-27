@@ -1,7 +1,8 @@
 # 行业知识索引
 
 > 本索引记录所有行业研究相关知识条目。
-> 每次新增条目后，须同步更新本索引、`raw/INDEX.md`（如有原始资料）和 `SUMMARY.md`。
+> **本文件由 `entries/entries.json` 自动生成，请勿手动编辑表格内容。** 新增条目请通过 knowledge-index 技能更新 entries.json。
+> 每次新增条目后，须同步更新 `raw/INDEX.md`（如有原始资料）和 `entries/entries.json`。
 
 ## 索引条目
 
@@ -11,6 +12,6 @@
 
 ## 索引维护规范
 
-- **新增条目**：在表格末尾添加一行，按日期倒序排列
-- **更新条目**：直接修改对应行的内容；若可信度变化需同步更新 SUMMARY.md
-- **同步摘要**：每次变更后，更新 SUMMARY.md 中的总体概括
+- **新增条目**：更新 `entries/entries.json`，INDEX.md 从 entries.json 渲染生成
+- **更新条目**：直接修改 entries.json 中对应条目
+- **索引维护**：每次变更后，从 entries.json 重新渲染 INDEX.md
