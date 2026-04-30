@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-04-28",
   "companies": [
     {
       "code": "600169",
@@ -3068,6 +3068,525 @@
           "type": "pdf",
           "size_bytes": 3360787,
           "year": 2025,
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "601985",
+      "name": "中国核电",
+      "directory": "601985-中国核电",
+      "files": [
+        {
+          "filename": "601985-中国核电-财务摘要.csv",
+          "type": "csv",
+          "category": "financial_data"
+        },
+        {
+          "filename": "601985_中国核电_2021年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "601985_中国核电_2022年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "601985_中国核电_2023年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "601985_中国核电_2024年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "003816",
+      "name": "中国广核",
+      "directory": "003816-中国广核",
+      "files": [
+        {
+          "filename": "003816-中国广核-财务摘要.csv",
+          "type": "csv",
+          "category": "financial_data"
+        },
+        {
+          "filename": "003816_中国广核_2021年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "003816_中国广核_2022年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "003816_中国广核_2023年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "003816_中国广核_2024年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "003816_中国广核_2025年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "000958",
+      "name": "电投产融",
+      "directory": "000958-电投产融",
+      "files": [
+        {
+          "filename": "000958-电投产融-财务摘要.csv",
+          "type": "csv",
+          "category": "financial_data"
+        },
+        {
+          "filename": "000958_东方能源_2021年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "000958_电投产融_2022年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "000958_电投产融_2023年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "000958_电投产融_2024年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "000958_电投产融_2025年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "601611",
+      "name": "中国核建",
+      "directory": "601611-中国核建",
+      "files": [
+        {
+          "filename": "601611-中国核建-财务摘要.csv",
+          "type": "csv",
+          "category": "financial_data"
+        },
+        {
+          "filename": "601611_中国核建_2021年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "601611_中国核建_2022年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "601611_中国核建_2023年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "601611_中国核建_2024年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "601611_中国核建_2025年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "600642",
+      "name": "申能股份",
+      "directory": "600642-申能股份",
+      "files": [
+        {
+          "filename": "600642-申能股份-财务摘要.csv",
+          "type": "csv",
+          "category": "financial_data"
+        }
+      ]
+    },
+    {
+      "code": "600023",
+      "name": "浙能电力",
+      "directory": "600023-浙能电力",
+      "files": [
+        {
+          "filename": "600023-浙能电力-财务摘要.csv",
+          "type": "csv",
+          "category": "financial_data"
+        }
+      ]
+    },
+    {
+      "code": "600886",
+      "name": "国投电力",
+      "directory": "600886-国投电力",
+      "files": [
+        {
+          "filename": "600886-国投电力-财务摘要.csv",
+          "type": "csv",
+          "category": "financial_data"
+        }
+      ]
+    },
+    {
+      "code": "600011",
+      "name": "华能国际",
+      "directory": "600011-华能国际",
+      "files": [
+        {
+          "filename": "600011-华能国际-财务摘要.csv",
+          "type": "csv",
+          "category": "financial_data"
+        }
+      ]
+    },
+    {
+      "code": "002167",
+      "name": "东方锆业",
+      "directory": "002167-东方锆业",
+      "files": [
+        {
+          "filename": "002167-东方锆业-财务摘要.csv",
+          "type": "csv",
+          "category": "financial_data"
+        },
+        {
+          "filename": "002167_东方锆业_2021年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "002167_东方锆业_2022年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "002167_东方锆业_2023年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "002167_东方锆业_2024年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "002167_东方锆业_2025年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "002756",
+      "name": "永兴材料",
+      "directory": "002756-永兴材料",
+      "files": [
+        {
+          "filename": "002756-永兴材料-财务摘要.csv",
+          "type": "csv",
+          "category": "financial_data"
+        },
+        {
+          "filename": "002756_永兴材料_2021年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "002756_永兴材料_2022年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "002756_永兴材料_2023年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "002756_永兴材料_2024年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "002756_永兴材料_2025年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "000881",
+      "name": "中广核技",
+      "directory": "000881-中广核技",
+      "files": [
+        {
+          "filename": "000881-中广核技-财务摘要.csv",
+          "type": "csv",
+          "category": "financial_data"
+        },
+        {
+          "filename": "000881_中广核技_2021年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "000881_中广核技_2022年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "000881_中广核技_2023年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "000881_中广核技_2024年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "000881_中广核技_2025年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "002255",
+      "name": "海陆重工",
+      "directory": "002255-海陆重工",
+      "files": [
+        {
+          "filename": "002255-海陆重工-财务摘要.csv",
+          "type": "csv",
+          "category": "financial_data"
+        },
+        {
+          "filename": "002255_海陆重工_2021年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "002255_海陆重工_2022年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "002255_海陆重工_2023年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "002255_海陆重工_2024年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "002255_海陆重工_2025年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "600516",
+      "name": "方大炭素",
+      "directory": "600516-方大炭素",
+      "files": [
+        {
+          "filename": "600516-方大炭素-财务摘要.csv",
+          "type": "csv",
+          "category": "financial_data"
+        },
+        {
+          "filename": "600516_方大炭素_2021年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "600516_方大炭素_2022年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "600516_方大炭素_2023年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "600516_方大炭素_2024年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "603011",
+      "name": "合锻智能",
+      "directory": "603011-合锻智能",
+      "files": [
+        {
+          "filename": "603011-合锻智能-财务摘要.csv",
+          "type": "csv",
+          "category": "financial_data"
+        },
+        {
+          "filename": "603011_合锻智能_2021年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "603011_合锻智能_2022年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "603011_合锻智能_2023年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "603011_合锻智能_2024年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "603011_合锻智能_2025年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "300963",
+      "name": "中洲特材",
+      "directory": "300963-中洲特材",
+      "files": [
+        {
+          "filename": "300963-中洲特材-财务摘要.csv",
+          "type": "csv",
+          "category": "financial_data"
+        },
+        {
+          "filename": "300963_中洲特材_2021年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "300963_中洲特材_2022年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "300963_中洲特材_2023年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "300963_中洲特材_2024年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "300963_中洲特材_2025年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "600105",
+      "name": "永鼎股份",
+      "directory": "600105-永鼎股份",
+      "files": [
+        {
+          "filename": "600105-永鼎股份-财务摘要.csv",
+          "type": "csv",
+          "category": "financial_data"
+        },
+        {
+          "filename": "600105_永鼎股份_2021年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "600105_永鼎股份_2022年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "600105_永鼎股份_2023年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "600105_永鼎股份_2024年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "600105_永鼎股份_2025年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        }
+      ]
+    },
+    {
+      "code": "600468",
+      "name": "百利电气",
+      "directory": "600468-百利电气",
+      "files": [
+        {
+          "filename": "600468-百利电气-财务摘要.csv",
+          "type": "csv",
+          "category": "financial_data"
+        },
+        {
+          "filename": "600468_百利电气_2021年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "600468_百利电气_2022年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "600468_百利电气_2023年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "600468_百利电气_2024年报.pdf",
+          "type": "pdf",
+          "category": "annual_report"
+        },
+        {
+          "filename": "600468_百利电气_2025年报.pdf",
+          "type": "pdf",
           "category": "annual_report"
         }
       ]

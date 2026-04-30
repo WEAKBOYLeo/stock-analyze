@@ -12,6 +12,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 2. **证据可追溯** — 每个知识条目关联原始资料存档，每份原始资料可反向追溯到使用它的条目
 3. **自上而下** — 调研从宏观出发，逐层下沉到行业和公司，不跳过任何层级
 4. **持续积累** — INDEX.md 从 entries.json 渲染生成，每次入库都要更新索引以反映知识库最新状态
+5. **语言多样性** — 每次搜索必须同时使用中文和英文执行，确保知识库来源中英文比例接近 50/50。宏观经济与行业分析至少包含一条英文来源
 
 ## 三层架构
 
@@ -29,30 +30,21 @@ stock/
 │   ├── tasks/                       #   活跃任务脚本（gitignored）
 │   ├── staging/                     #   原始下载暂存区（gitignored）
 │   └── logs/                        #   任务执行日志（gitignored）
-├── knowledge/                       # 知识存储层（三级分层 × 双重系统）— 原子化知识条目
+├── knowledge/                       # 知识存储层（三级分层）— 原子化知识条目
 │   ├── macro/                       #   宏观经济知识
-│   │   ├── INDEX.md                 #     知识条目索引（从 entries.json 渲染）
-│   │   ├── entries/                 #     单条知识文件（.md，公司用 代码-公司名-主题 格式）
-│   │   │   └── entries.json          #       程序化条目主索引（INDEX.md 从此渲染）
-│   │   └── raw/                     #     原始资料存档
-│   │       ├── index.json            #       程序化检索主索引
-│   │       ├── INDEX.md              #       人类可读补充索引
-│   │       └── {代码}-{公司名}/       #       按公司分子目录
-│   ├── industry/                    #   行业知识（结构同 macro）
-│   │   ├── INDEX.md
-│   │   ├── entries/
-│   │   │   └── entries.json
-│   │   └── raw/
-│   │       ├── index.json
-│   │       └── INDEX.md
-│   └── company/                     #   公司知识（结构同 macro）
-│       ├── INDEX.md
-│       ├── entries/
-│       │   └── entries.json
-│       └── raw/
-│           ├── index.json
-│           ├── INDEX.md
-│           └── {代码}-{公司名}/
+│   │   ├── INDEX.md                 #     知识条目索引（从 entries/entries.json 渲染）
+│   │   └── entries/                 #     单条知识文件 + entries.json 主索引
+│   ├── industry/                    #   行业知识（按行业分子目录）
+│   │   ├── INDEX.md                 #     知识条目索引（从 entries/entries.json 渲染）
+│   │   └── entries/
+│   │       ├── entries.json         #       程序化条目主索引
+│   │       └── {行业名}/             #       按行业分子目录（如 旅游/）
+│   └── company/                     #   公司知识
+│       ├── INDEX.md                 #     知识条目索引（从 entries/entries.json 渲染）
+│       ├── entries/                 #     单条知识文件 + entries.json 主索引
+│       └── raw/                     #     原始资料存档（年报PDF + 财务CSV）
+│           ├── index.json            #       程序化检索主索引
+│           └── {代码}-{公司名}/       #       按公司分子目录
 ├── research/                        # 分析应用层 — 按任务场景组织知识进行分析
 │   └── [项目名]/                    #   单个调研项目（如 tourism）
 │       ├── README.md                #     项目概述、范围、核心问题
@@ -61,10 +53,12 @@ stock/
 ├── TASKS.md                         # 项目级任务管理（大方向与子任务）
 └── .claude/
     └── skills/
-        ├── stock-research.md        # 股票调研技能（含可信度评估 + 证据归档）
-        ├── knowledge-index.md       # 知识索引管理技能（含可信度框架）
-        ├── task-manager.md          # 任务管理技能
-        └── pipeline.md              # 数据获取管道技能
+        ├── stock-research/          # 股票调研技能（含可信度评估 + 证据归档）
+        ├── stock-fetch/             # 统一数据搜集技能
+        ├── search-online/           # 统一网络搜索技能（探索/提问/验证分流）
+        ├── knowledge-index/         # 知识索引管理技能（含可信度框架）
+        ├── task-manager/            # 任务管理技能
+        └── pipeline/                # 数据获取管道技能
 ```
 
 ## 三层架构：数据获取 → 知识存储 → 分析应用
@@ -80,8 +74,8 @@ stock/
 ## 知识库索引体系：entries.json → INDEX.md
 
 > 条目程序化主索引：`entries/entries.json` → 渲染生成 `INDEX.md`（人类可读）。
-> 原始资料索引：`raw/index.json`（程序化主索引）+ `raw/INDEX.md`（人类可读补充）。
-> **数据搜集前必须校验 index.json**：先查 entries.json 和 raw/index.json 确认已有数据范围，若已存在则跳过，若部分存在则只补足缺失部分。
+> 原始资料索引（仅 company/ 层）：`raw/index.json`（程序化主索引）。
+> **数据搜集前必须校验 index.json**：先查 entries.json 确认已有条目范围；company/ 层额外查 raw/index.json 确认已下载年报/财务数据，若已存在则跳过，若部分存在则只补足缺失部分。
 
 ## 来源可信度体系
 
@@ -106,6 +100,15 @@ stock/
 - L5 及以下不能独立支撑投资判断，须有更高级别来源交叉验证
 - 单一来源的结论必须在报告中注明"需进一步验证"
 - 多来源数据不一致时，优先采信 L1 官方数据，并记录分歧
+
+### 语言多样性要求
+
+在搜索和知识入库阶段，必须同时考虑中文和英文来源：
+
+- 每个信息需求必须分别用中文和英文搜索
+- 宏观和行业层知识条目要求至少包含一条英文来源
+- 最终知识来源的中英文比例应接近 50/50
+- 创建条目时在元数据中标注 `source_language` 字段
 
 ## 核心工作流
 
@@ -165,6 +168,7 @@ stock/
 - **knowledge-index** — 知识库索引管理：创建条目、评估来源可信度（L1-L7）、归档原始资料、更新 INDEX.md。由 stock-fetch 或 stock-research 在入库/回写时调用。
 - **pipeline** — 数据获取管道（技术子技能）：AKShare/Python 爬虫获取公司年报等原始数据，经 staging 中转。由 stock-fetch 统一调度，不直接响应用户请求。
 - **task-manager** — 项目级任务追踪：创建调研方向、分解子任务、更新完成状态。跨会话持久化。
+- **search-online** — 统一网络搜索入口：使用 brave_web_search 搜索，brave_llm_context 提取高价值长文全文。由 stock-research、knowledge-index 等技能在需要在线搜索时调用。
 
 ## 可用的 MCP 工具
 
@@ -172,20 +176,31 @@ stock/
 - `brave_llm_context` — 长文本深度提取（用于单个高价值网页的全文提取，返回 LLM 优化的清洁文本，适合 RAG）
 - `brave_local_search` — 本地商业搜索
 - `brave_rich_search` — 结构化数据查询（股票报价、汇率、天气等，需配合 brave_web_search 的 callback_key 使用）
-- `WebFetch` — 抓取并解析网页内容（结果以 .md 存入 raw/ 目录）
+- `WebFetch` — 抓取并解析网页内容（结果以 .md 存入 research/ 对应项目目录）
 
 ### MCP 搜索工具选择规则
 
+> **具体选择逻辑见 `search-online` 技能。以下为工具能力速查：**
+
 | 场景 | 工具 | 说明 |
 |------|------|------|
-| 广泛搜索话题、发现多个来源 | `brave_web_search` | 返回搜索结果列表，适合"有哪些相关文章/报告" |
-| 单个长文本网页深度提取 | `brave_llm_context` | 返回清洁正文，适合研报全文、深度分析、年报长文 |
+| 所有搜索查询 | `brave_web_search` | 返回搜索结果列表，Agent 自行按 L1-L7 筛选来源，多轮搜索实现交叉验证 |
+| 已知 URL 的全文提取 | `brave_llm_context` | 返回清洁正文，适合研报/公告长文提取和归档 |
 | 获取实时股票报价/汇率 | `brave_web_search` + `brave_rich_search` | 先搜索获取 callback_key，再用 rich_search 获取结构化数据 |
 
-**判断逻辑**：
-- 不知道具体有哪些资料 → `brave_web_search` 广泛搜索
-- 已确定某篇长文/研报有高价值 → `brave_llm_context` 深度提取
-- `brave_llm_context` 适合内容密集型页面（研究报告、深度分析、官方长文），不适合导航页、列表页、短消息
+**核心原则**：
+- 所有搜索通过 `brave_web_search` 执行，Agent 自行按 L1-L7 筛选来源
+- 需多源交叉验证时，调整搜索词进行多轮搜索
+- **提取**（已知具体页面 URL）→ `brave_llm_context`，直接提取页面全文清洁正文
+
+### 双语搜索规则
+
+所有通过 `brave_web_search` 执行的搜索必须遵守以下规则：
+
+1. **每个查询执行两轮搜索**：一轮使用中文关键词，设置 `search_lang=zh`；一轮使用英文关键词，设置 `search_lang=en`
+2. **英文关键词策略**：将中文搜索意图翻译为地道的英文行业术语（例如 "白酒行业竞争格局" → "China baijiu industry competitive landscape 2026"）
+3. **结果合并**：两轮搜索结果合并后按 L1-L7 筛选，兼顾语言多样性
+4. **搜索请求协议扩充**：调用方可通过 `require_english_sources` 参数要求搜索过程必须包含英文来源
 
 ## 调研报告格式
 
@@ -234,3 +249,4 @@ stock/
 5. 中小研究机构（L5）：仅作交叉验证参考
 6. 财经媒体/数据平台（L6）：Bloomberg, Reuters, 财新, AKShare
 7. 自媒体/论坛（L7）：仅作线索，不入知识库
+8. **语言多样性**：同等可信度等级的来源，优先选择与已有来源不同语言的来源，以丰富视角

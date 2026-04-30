@@ -1,4 +1,232 @@
 {
-  "last_updated": "2026-04-26",
-  "entries": []
+  "last_updated": "2026-04-28",
+  "entries": [
+    {
+      "date": "2026-04-27",
+      "industry": "旅游业",
+      "topic": "中国旅游业市场规模与增长（2020-2026）",
+      "region": "中国",
+      "credibility": "高",
+      "file": "旅游/2026-04-27_中国旅游业市场规模与增长.md",
+      "sources": [],
+      "tags": ["旅游", "市场规模", "增长", "GDP占比"]
+    },
+    {
+      "date": "2026-04-27",
+      "industry": "旅游业",
+      "topic": "旅游细分赛道竞争格局（OTA/景区/酒店/免税/航空）",
+      "region": "中国",
+      "credibility": "中高",
+      "file": "旅游/2026-04-27_旅游细分赛道竞争格局.md",
+      "sources": [],
+      "tags": ["旅游", "OTA", "景区", "酒店", "免税", "航空", "竞争格局"]
+    },
+    {
+      "date": "2026-04-27",
+      "industry": "旅游业",
+      "topic": "旅游行业政策环境（免签/入境游/假期/REITs）",
+      "region": "中国",
+      "credibility": "高",
+      "file": "旅游/2026-04-27_旅游行业政策环境.md",
+      "sources": [],
+      "tags": ["政策", "免签", "入境游", "假期", "REITs"]
+    },
+    {
+      "date": "2026-04-27",
+      "industry": "旅游业",
+      "topic": "旅游行业发展趋势与估值水平",
+      "region": "中国",
+      "credibility": "中",
+      "file": "旅游/2026-04-27_旅游行业发展趋势与估值.md",
+      "sources": [],
+      "tags": ["旅游", "趋势", "估值", "消费升级", "AI", "银发经济"]
+    },
+    {
+      "date": "2026-04-28",
+      "industry": "核电",
+      "topic": "中国核电产业政策与审批周期",
+      "region": "中国",
+      "credibility": "高",
+      "file": "核电/2026-04-28_中国核电产业政策与审批周期.md",
+      "sources": ["国家能源局", "上海证券报", "第一财经", "中国工业报", "Reuters", "NEI", "Enerdata", "NBP"],
+      "source_language": ["zh", "zh", "zh", "zh", "en", "en", "en", "en"],
+      "tags": ["核电", "政策", "核准", "十四五", "十五五", "中国"]
+    },
+    {
+      "date": "2026-04-28",
+      "industry": "核电",
+      "topic": "中国核电定价机制与市场化改革",
+      "region": "中国",
+      "credibility": "高",
+      "file": "核电/2026-04-28_中国核电定价机制与市场化改革.md",
+      "sources": ["国家发改委", "中国核能行业协会", "财联社", "IMF", "RMI", "ClearBlue Markets"],
+      "source_language": ["zh", "zh", "zh", "en", "en", "en"],
+      "tags": ["核电", "电价", "电力市场", "上网电价", "中国"]
+    },
+    {
+      "date": "2026-04-28",
+      "industry": "核电",
+      "topic": "全球核电发展格局与国家对比",
+      "region": "全球",
+      "credibility": "高",
+      "file": "核电/2026-04-28_全球核电发展格局与国家对比.md",
+      "sources": ["IAEA PRIS", "World Nuclear Association", "Wikipedia"],
+      "source_language": ["en", "en", "en"],
+      "tags": ["核电", "全球", "IAEA", "装机容量", "技术路线", "国际对比"]
+    },
+    {
+      "date": "2026-04-28",
+      "industry": "核电",
+      "topic": "核电产业链结构与市场规模",
+      "region": "中国",
+      "credibility": "中高",
+      "file": "核电/2026-04-28_核电产业链结构与市场规模.md",
+      "sources": ["东北证券", "大公国际", "华经产业研究院", "Grand View Research", "Straits Research", "NBP"],
+      "source_language": ["zh", "zh", "zh", "en", "en", "en"],
+      "tags": ["核电", "产业链", "设备", "核岛", "市场规模", "竞争格局"]
+    },
+    {
+      "date": "2026-04-28",
+      "industry": "核电",
+      "topic": "中国核电运营市场竞争格局",
+      "region": "中国",
+      "credibility": "高",
+      "file": "核电/2026-04-28_中国核电运营市场竞争格局.md",
+      "sources": ["国家核安全局", "中国广核2025年报", "中国核电公告", "电投产融重组公告", "中电联", "中国核能发展报告2025", "World Nuclear Association", "Reuters"],
+      "source_language": ["zh", "zh", "zh", "zh", "zh", "zh", "en", "en"],
+      "tags": ["核电", "运营", "中国核电", "中国广核", "电投产融", "竞争格局", "装机容量"]
+    },
+    {
+      "date": "2026-04-28",
+      "industry": "核电",
+      "topic": "中国核电工程建设市场",
+      "region": "中国",
+      "credibility": "高",
+      "file": "核电/2026-04-28_中国核电工程建设市场.md",
+      "sources": ["中国核建2025年报", "中国核建2025半年报", "国务院核准公告", "World Nuclear Association", "Reuters", "华泰证券", "长江证券"],
+      "source_language": ["zh", "zh", "zh", "en", "en", "zh", "zh"],
+      "tags": ["核电", "工程", "EPC", "中国核建", "建造", "核准", "建设周期"]
+    },
+    {
+      "date": "2026-04-28",
+      "industry": "核电",
+      "topic": "核岛重型设备竞争格局",
+      "region": "中国",
+      "credibility": "高",
+      "file": "核电/2026-04-28_核岛重型设备竞争格局.md",
+      "sources": ["国家核安全局", "上海电气官网", "World Nuclear Association", "中国核能行业协会", "中泰证券", "东北证券"],
+      "source_language": ["zh", "zh", "en", "zh", "zh", "zh"],
+      "tags": ["核电", "设备", "核岛", "压力容器", "蒸汽发生器", "东方电气", "上海电气", "中国一重"]
+    },
+    {
+      "date": "2026-04-28",
+      "industry": "核电",
+      "topic": "核电关键阀门与泵类竞争格局",
+      "region": "中国",
+      "credibility": "中高",
+      "file": "核电/2026-04-28_核电关键阀门与泵类竞争格局.md",
+      "sources": ["中核科技年报", "江苏神通年报", "纽威股份年报", "应流股份年报", "佳电股份年报", "中国核能行业协会", "Valuates Reports"],
+      "source_language": ["zh", "zh", "zh", "zh", "zh", "zh", "en"],
+      "tags": ["核电", "阀门", "泵", "中核科技", "江苏神通", "纽威股份", "应流股份", "主泵"]
+    },
+    {
+      "date": "2026-04-28",
+      "industry": "核电",
+      "topic": "核电热交换与冷却系统竞争格局",
+      "region": "中国",
+      "credibility": "中高",
+      "file": "核电/2026-04-28_核电热交换与冷却系统竞争格局.md",
+      "sources": ["盾安环境公告", "哈空调年报", "兰石重装公告", "华安证券", "中邮证券"],
+      "source_language": ["zh", "zh", "zh", "zh", "zh"],
+      "tags": ["核电", "暖通", "冷水机组", "热交换", "盾安环境", "哈空调", "兰石重装"]
+    },
+    {
+      "date": "2026-04-28",
+      "industry": "核电",
+      "topic": "核级电缆与电气控制竞争格局",
+      "region": "中国",
+      "credibility": "中高",
+      "file": "核电/2026-04-28_核级电缆与电气控制竞争格局.md",
+      "sources": ["佳电股份年报", "沃尔核材公告", "尚纬股份年报", "QYResearch"],
+      "source_language": ["zh", "zh", "zh", "en"],
+      "tags": ["核电", "电缆", "电机", "核级电缆", "沃尔核材", "佳电股份", "尚纬股份"]
+    },
+    {
+      "date": "2026-04-28",
+      "industry": "核电",
+      "topic": "核电特种管材竞争格局",
+      "region": "中国",
+      "credibility": "中高",
+      "file": "核电/2026-04-28_核电特种管材竞争格局.md",
+      "sources": ["久立特材年报", "龙泉股份年报", "中邮证券", "华创证券"],
+      "source_language": ["zh", "zh", "zh", "zh"],
+      "tags": ["核电", "管材", "U型管", "久立特材", "龙泉股份", "蒸发器"]
+    },
+    {
+      "date": "2026-04-28",
+      "industry": "核电",
+      "topic": "铀资源与核燃料供应链",
+      "region": "全球/中国",
+      "credibility": "高",
+      "file": "核电/2026-04-28_铀资源与核燃料供应链.md",
+      "sources": ["World Nuclear Association", "CNEA", "UxC", "中金公司", "浙商证券", "中国铀业招股书"],
+      "source_language": ["en", "zh", "en", "zh", "zh", "zh"],
+      "tags": ["核电", "铀", "核燃料", "铀矿", "浓缩", "供需", "价格"]
+    },
+    {
+      "date": "2026-04-28",
+      "industry": "核电",
+      "topic": "核电特种材料与防护供应商竞争格局",
+      "region": "中国",
+      "credibility": "中高",
+      "file": "核电/2026-04-28_核电特种材料与防护竞争格局.md",
+      "sources": ["东方锆业公告", "永兴材料公告", "中广核技年报", "海陆重工公告", "方大炭素公告"],
+      "source_language": ["zh", "zh", "zh", "zh", "zh"],
+      "tags": ["核电", "材料", "锆材", "石墨", "核级钠", "海陆重工", "方大炭素", "东方锆业"]
+    },
+    {
+      "date": "2026-04-28",
+      "industry": "核电",
+      "topic": "全球可控核聚变技术进展与商业化展望",
+      "region": "全球/中国",
+      "credibility": "中高",
+      "file": "核电/2026-04-28_全球可控核聚变技术进展与商业化展望.md",
+      "sources": ["IAEA", "ITER", "World Nuclear Association", "永鼎股份公告", "合锻智能公告", "百利电气公告", "浙商证券"],
+      "source_language": ["en", "en", "en", "zh", "zh", "zh", "zh"],
+      "tags": ["核聚变", "ITER", "CFETR", "BEST", "托卡马克", "超导", "永鼎股份", "合锻智能", "百利电气"]
+    },
+    {
+      "date": "2026-04-28",
+      "industry": "核电",
+      "topic": "科技公司核电采购与SMR协议",
+      "region": "全球",
+      "credibility": "中高",
+      "file": "核电/2026-04-28_科技公司核电采购与SMR协议.md",
+      "sources": ["World Nuclear News", "EL PAÍS", "IEEE Spectrum", "Latitude Media", "ESG Today", "Carbon Credits"],
+      "source_language": ["en", "en", "en", "en", "en", "en"],
+      "tags": ["核电", "科技公司", "SMR", "PPA", "数据中心", "AI", "Microsoft", "Google", "Amazon", "Meta"]
+    },
+    {
+      "date": "2026-04-28",
+      "industry": "核电",
+      "topic": "核电LCOE竞争力与基荷电源对比",
+      "region": "全球/中国",
+      "credibility": "中高",
+      "file": "核电/2026-04-28_核电LCOE竞争力与基荷电源对比.md",
+      "sources": ["Lazard LCOE+ 2025", "pv magazine USA", "DOE"],
+      "source_language": ["en", "en", "en"],
+      "tags": ["核电", "LCOE", "度电成本", "风光储", "竞争力", "基荷电源", "Vogtle"]
+    },
+    {
+      "date": "2026-04-28",
+      "industry": "核电",
+      "topic": "SMR技术进展与商业化时间表",
+      "region": "全球/中国",
+      "credibility": "中高",
+      "file": "核电/2026-04-28_SMR技术进展与商业化时间表.md",
+      "sources": ["World Nuclear Association", "IAEA ARIS", "Introl", "smrintel.com"],
+      "source_language": ["en", "en", "en", "en"],
+      "tags": ["核电", "SMR", "玲龙一号", "NuScale", "BWRX-300", "Kairos", "X-energy", "商业化", "数据中心"]
+    }
+  ]
 }

@@ -1,6 +1,17 @@
 {
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-04-28",
   "entries": [
+    {
+      "date": "2026-04-28",
+      "company": "国际核电可比公司",
+      "code": "CEG/CCJ/SMR",
+      "industry": "核电-国际对标",
+      "topic": "Constellation Energy/Cameco/NuScale等国际核电标的概览与估值对比",
+      "credibility": "中",
+      "file": "2026-04-28_国际核电可比公司概览.md",
+      "raw_files": [],
+      "tags": ["核电", "国际对标", "Constellation Energy", "Cameco", "NuScale", "估值", "美股"]
+    },
     {
       "date": "2026-04-26",
       "company": "黄山旅游",
@@ -9,7 +20,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "600054-黄山旅游-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/600054-黄山旅游/ (15 PDF + 1 CSV)"
       ],
       "tags": [
@@ -28,7 +39,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "000888-峨眉山A-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/000888-峨眉山A/ (14 PDF + 1 CSV)"
       ],
       "tags": [
@@ -47,7 +58,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "603199-九华旅游-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/603199-九华旅游/ (12 PDF + 1 CSV)"
       ],
       "tags": [
@@ -66,7 +77,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "603099-长白山-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/603099-长白山/ (12 PDF + 1 CSV)"
       ],
       "tags": [
@@ -85,7 +96,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "002033-丽江股份-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/002033-丽江股份/ (15 PDF + 1 CSV)"
       ],
       "tags": [
@@ -104,7 +115,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "000430-张家界-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/000430-张家界/ (15 PDF + 1 CSV)"
       ],
       "tags": [
@@ -123,7 +134,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "600749-西藏旅游-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/600749-西藏旅游/ (13 PDF + 1 CSV)"
       ],
       "tags": [
@@ -142,7 +153,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "300859-西域旅游-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/300859-西域旅游/ (5 PDF + 1 CSV)"
       ],
       "tags": [
@@ -161,7 +172,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "000978-桂林旅游-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/000978-桂林旅游/ (14 PDF + 1 CSV)"
       ],
       "tags": [
@@ -180,7 +191,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "603136-天目湖-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/603136-天目湖/ (9 PDF + 1 CSV)"
       ],
       "tags": [
@@ -199,7 +210,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "002627-三峡旅游-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/002627-三峡旅游/ (14 PDF + 1 CSV)"
       ],
       "tags": [
@@ -218,7 +229,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "600593-大连圣亚-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/600593-大连圣亚/ (14 PDF + 1 CSV)"
       ],
       "tags": [
@@ -237,7 +248,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "600138-中青旅-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/600138-中青旅/ (15 PDF + 1 CSV)"
       ],
       "tags": [
@@ -256,7 +267,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "300144-宋城演艺-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/300144-宋城演艺/ (4 PDF + 1 CSV)"
       ],
       "tags": [
@@ -275,7 +286,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "000069-华侨城A-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/000069-华侨城A/ (14 PDF + 1 CSV)"
       ],
       "tags": [
@@ -294,7 +305,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "600706-曲江文旅-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/600706-曲江文旅/ (13 PDF + 1 CSV)"
       ],
       "tags": [
@@ -313,7 +324,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "000610-西安旅游-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/000610-西安旅游/ (14 PDF + 1 CSV)"
       ],
       "tags": [
@@ -332,7 +343,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "002059-云南旅游-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/002059-云南旅游/ (15 PDF + 1 CSV)"
       ],
       "tags": [
@@ -351,7 +362,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "601888-中国中免-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/601888-中国中免/ (15 PDF + 1 CSV)"
       ],
       "tags": [
@@ -370,7 +381,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "000524-岭南控股-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/000524-岭南控股/ (15 PDF + 1 CSV)"
       ],
       "tags": [
@@ -389,7 +400,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "002707-众信旅游-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/002707-众信旅游/ (13 PDF + 1 CSV)"
       ],
       "tags": [
@@ -408,7 +419,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "000796-凯撒旅业-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/000796-凯撒旅业/ (11 PDF + 1 CSV)"
       ],
       "tags": [
@@ -427,7 +438,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "600754-锦江酒店-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/600754-锦江酒店/ (9 PDF + 1 CSV)"
       ],
       "tags": [
@@ -446,7 +457,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "600258-首旅酒店-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/600258-首旅酒店/ (15 PDF + 1 CSV)"
       ],
       "tags": [
@@ -465,7 +476,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "301073-君亭酒店-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/301073-君亭酒店/ (4 PDF + 1 CSV)"
       ],
       "tags": [
@@ -484,7 +495,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "601007-金陵饭店-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/601007-金陵饭店/ (15 PDF + 1 CSV)"
       ],
       "tags": [
@@ -503,7 +514,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "000428-华天酒店-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/000428-华天酒店/ (14 PDF + 1 CSV)"
       ],
       "tags": [
@@ -522,7 +533,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "002186-全聚德-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/002186-全聚德/ (15 PDF + 1 CSV)"
       ],
       "tags": [
@@ -541,7 +552,7 @@
       "topic": "2011-2025年（15年）财务数据",
       "credibility": "中高",
       "file": "002159-三特索道-15年财务数据.md",
-      "raw_materials": [
+      "raw_files": [
         "raw/002159-三特索道/ (15 PDF + 1 CSV)"
       ],
       "tags": [
@@ -550,6 +561,468 @@
         "A股",
         "旅游",
         "15年"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "中国核电",
+      "code": "601985",
+      "industry": "核电运营",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "601985-中国核电-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核电运营",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "中国广核",
+      "code": "003816",
+      "industry": "核电运营",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "003816-中国广核-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核电运营",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "电投产融",
+      "code": "000958",
+      "industry": "核电运营",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "000958-电投产融-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核电运营",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "中国核建",
+      "code": "601611",
+      "industry": "核电工程",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "601611-中国核建-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核电工程",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "申能股份",
+      "code": "600642",
+      "industry": "电力综合",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "600642-申能股份-财务数据.md",
+      "tags": [
+        "财务数据",
+        "电力综合",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "浙能电力",
+      "code": "600023",
+      "industry": "电力综合",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "600023-浙能电力-财务数据.md",
+      "tags": [
+        "财务数据",
+        "电力综合",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "国投电力",
+      "code": "600886",
+      "industry": "电力综合",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "600886-国投电力-财务数据.md",
+      "tags": [
+        "财务数据",
+        "电力综合",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "华能国际",
+      "code": "600011",
+      "industry": "电力综合",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "600011-华能国际-财务数据.md",
+      "tags": [
+        "财务数据",
+        "电力综合",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "东方电气",
+      "code": "600875",
+      "industry": "核电设备",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "600875-东方电气-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核电设备",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "上海电气",
+      "code": "601727",
+      "industry": "核电设备",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "601727-上海电气-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核电设备",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "中国一重",
+      "code": "601106",
+      "industry": "核电设备",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "601106-中国一重-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核电设备",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "国机重装",
+      "code": "601399",
+      "industry": "核电设备",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "601399-国机重装-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核电设备",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "中核科技",
+      "code": "000777",
+      "industry": "核电阀门",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "000777-中核科技-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核电阀门",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "江苏神通",
+      "code": "002438",
+      "industry": "核电阀门",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "002438-江苏神通-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核电阀门",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "纽威股份",
+      "code": "603699",
+      "industry": "核电阀门",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "603699-纽威股份-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核电阀门",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "应流股份",
+      "code": "603308",
+      "industry": "核电铸件",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "603308-应流股份-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核电铸件",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "盾安环境",
+      "code": "002011",
+      "industry": "核电暖通",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "002011-盾安环境-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核电暖通",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "哈空调",
+      "code": "600202",
+      "industry": "核电暖通",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "600202-哈空调-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核电暖通",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "兰石重装",
+      "code": "603169",
+      "industry": "核电装备",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "603169-兰石重装-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核电装备",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "沃尔核材",
+      "code": "002130",
+      "industry": "核电材料",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "002130-沃尔核材-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核电材料",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "佳电股份",
+      "code": "000922",
+      "industry": "核电电机",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "000922-佳电股份-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核电电机",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "尚纬股份",
+      "code": "603333",
+      "industry": "核电电缆",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "603333-尚纬股份-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核电电缆",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "久立特材",
+      "code": "002318",
+      "industry": "核电管材",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "002318-久立特材-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核电管材",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "龙泉股份",
+      "code": "002671",
+      "industry": "核电管材",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "002671-龙泉股份-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核电管材",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "东方锆业",
+      "code": "002167",
+      "industry": "核级材料",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "002167-东方锆业-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核级材料",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "永兴材料",
+      "code": "002756",
+      "industry": "特种材料",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "002756-永兴材料-财务数据.md",
+      "tags": [
+        "财务数据",
+        "特种材料",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "中广核技",
+      "code": "000881",
+      "industry": "核技术应用",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "000881-中广核技-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核技术应用",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "海陆重工",
+      "code": "002255",
+      "industry": "核安全设备",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "002255-海陆重工-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核安全设备",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "方大炭素",
+      "code": "600516",
+      "industry": "核级石墨",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "600516-方大炭素-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核级石墨",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "合锻智能",
+      "code": "603011",
+      "industry": "核聚变设备",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "603011-合锻智能-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核聚变设备",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "中洲特材",
+      "code": "300963",
+      "industry": "核聚变材料",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "300963-中洲特材-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核聚变材料",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "永鼎股份",
+      "code": "600105",
+      "industry": "核聚变超导",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "600105-永鼎股份-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核聚变超导",
+        "A股"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "company": "百利电气",
+      "code": "600468",
+      "industry": "核聚变超导",
+      "topic": "财务数据",
+      "credibility": "高",
+      "file": "600468-百利电气-财务数据.md",
+      "tags": [
+        "财务数据",
+        "核聚变超导",
+        "A股"
       ]
     }
   ]

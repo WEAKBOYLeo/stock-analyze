@@ -1,5 +1,6 @@
 # 来源可信度白名单 — 项目权威定义
 # CLAUDE.md 和 knowledge-index 技能均从此文件引用，保持单一权威来源
+# 包含中英文双语来源。中文来源和英文来源均分类列出，供双语搜索策略参考
 
 levels:
   L1:
@@ -9,6 +10,12 @@ levels:
     sources:
       - 央行公告（中国人民银行、美联储、欧央行等）
       - 国家统计局 / 统计年鉴
+      - 美联储（Federal Reserve）FRED 数据库
+      - 欧洲央行（ECB）统计数据库
+      - 日本央行（Bank of Japan）统计
+      - 美国经济分析局（BEA）
+      - 美国劳工统计局（BLS）
+      - 美国人口普查局（U.S. Census Bureau）
       - SEC 文件（10-K, 10-Q, 8-K 等）
       - 港交所文件（年报、公告）
       - 上交所 / 深交所公告
@@ -24,6 +31,9 @@ levels:
       - BIS（国际清算银行）
       - WTO（世界贸易组织）
       - OECD（经合组织）
+      - UNCTAD（联合国贸易和发展会议）
+      - IEA（国际能源署）
+      - UNWTO（联合国世界旅游组织）
       - 中国证监会 / 银保监会
 
   L3:
@@ -35,6 +45,11 @@ levels:
       - Morgan Stanley（摩根士丹利）
       - JPMorgan（摩根大通）
       - UBS（瑞银）
+      - Barclays（巴克莱）
+      - Citi Research（花旗研究）
+      - Deutsche Bank Research（德意志银行研究）
+      - BofA Securities（美银证券）
+      - HSBC Research（汇丰研究）
       - CICC Research（中金研究院）
 
   L4:
@@ -48,6 +63,11 @@ levels:
       - 国泰君安
       - 海通证券
       - 招商证券
+      - Nomura（野村证券）
+      - Daiwa（大和证券）
+      - Jefferies
+      - Macquarie（麦格理）
+      - CLSA（里昂证券）
 
   L5:
     label: 中小研究机构
@@ -57,6 +77,12 @@ levels:
       - 区域性券商研究所
       - 小型独立研究机构
       - 咨询公司行业报告
+      - Gartner（高德纳）
+      - IDC（国际数据公司）
+      - Frost & Sullivan（弗若斯特沙利文）
+      - Forrester Research
+      - Morningstar Equity Research（晨星股票研究）
+      - Sanford C. Bernstein
 
   L6:
     label: 财经媒体 / 数据平台
@@ -65,6 +91,12 @@ levels:
     sources:
       - Bloomberg（彭博）
       - Reuters（路透社）
+      - Financial Times（金融时报）
+      - The Wall Street Journal（华尔街日报）
+      - CNBC
+      - The Economist（经济学人）
+      - Barron's（巴伦周刊）
+      - Seeking Alpha
       - 财新
       - 华尔街见闻
       - 东方财富
